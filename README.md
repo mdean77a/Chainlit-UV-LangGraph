@@ -1,0 +1,1 @@
+This is a simple chatbot built with Langchain and OpenAI. It uses UV for dependency management.
