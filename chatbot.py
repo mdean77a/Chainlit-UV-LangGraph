@@ -4,7 +4,7 @@ from graph import flow
 @cl.on_message
 async def main(message: cl.Message):
     initial_state = {"messages": [
-        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "system", "content": "You are a friendly assistant."},
         {"role": "user", "content": message.content}
     ]}
 
